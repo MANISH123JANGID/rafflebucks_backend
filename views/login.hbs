@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login To RaffleBucks</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	  
+	<div class="center">
+<div id="login-container" style="background-color: white">
+	<form action="/signin" method="POST">
+<div id="logo" style="text-align: center;"><img src="Images/Rfllogo.png"></div>
+<div id="login-head"  class="center"><h2>LOG IN</h2></div>
+
+ <div style="margin-left:10%;margin-top: 0px;"><svg  xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+<input type="text" style="margin-top: 0px;margin-left: 0%;" name="email" placeholder="Enter Registered Email"  required></div>
+<br>
+<div style="margin-left:10%"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+<input type="password"  style="margin-top: 0px;margin-left: 0%;" name="hash_password" placeholder="Enter Password" required>
+</div>
+<br>
+
+<label>
+	<input style="margin-left: 10%;margin-top: 10px;"   type="checkbox" checked="checked" name="remember"> Remember me
+  </label>
+
+  <a href="" style="margin-left: 15%;margin-top: 10px;">Forgot Password?</a>
+<br>
+<div id="loginbutton">
+<input type="submit" value="Sign In Now">
+</div>
+
+<div class="vl">
+	<span class="vl-innertext">OR</span>
+  </div>
+  <div id="social">
+	<a href="#" class="google btn"><i class="fa fa-google fa-fw">
+	</i> Login with Google+
+  </a>
+	<a href="#" class="fb btn">
+	  <i style="color:white;" class="fa fa-facebook fa-fw"></i> Login with Facebook
+	 </a>
+	<a href="#" class="twitter btn">
+	  <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+	</a>
+	
+  </div>
+
+
+
+</form>
+<div id="newacc">
+<span>New User?</span> <a href="#"> Create New Account</a>
+</div>
+</div>
+</div>
+</body>
+</html>

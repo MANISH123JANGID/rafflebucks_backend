@@ -4,13 +4,20 @@
   "description": "this is the backend of the rafflebucks project ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "nodemon src/app.js -e js,hbs,css"
   },
   "author": "MANISH JANGID",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.9"
+    "express-validator": "^6.13.0",
+    "hbs": "^4.1.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13"
   }
 }

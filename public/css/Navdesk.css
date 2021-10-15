@@ -1,0 +1,195 @@
+#rflnav1{
+    height:40px;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3);
+    position: absolute;
+    top: 50px;
+    position: fixed;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+    z-index: 9;
+}
+
+
+
+.navname{
+    margin-top: 10px;
+    text-align: center;
+}
+
+ 
+
+.toolnav{
+    position: relative;
+    height: 40px;
+    display: block;
+    margin-top: 0px;
+    background-color: transparent;
+}
+
+
+.toolnav:hover{
+    color: black;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+ #navbox1{
+     z-index: 990;
+    position: absolute;
+    left: -20px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+}
+
+#navbox2{
+    position: absolute;
+    left: -128px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+   z-index: 999;
+}
+
+#navbox3{
+    position: absolute;
+    left: -282px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+
+}
+
+#navbox4{
+    position: absolute;
+    left: -343px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+}
+
+#navbox5{
+    position: absolute;
+    left: -428px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+
+}
+
+#navbox6{
+    position: absolute;
+    left: -545px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+   
+}
+
+#navbox7{
+    position: absolute;
+    left: -701px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+
+}
+
+#navbox8{
+    position: absolute;
+    left: -833px;
+    display: none;
+    margin-top: 14px;
+    width: 992px;
+    height: 500px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+    background-color : white;
+
+}
+#headnav{
+    width: 992px;
+    display: block;
+    background-color: transparent;
+    text-align: justify;
+}
+
+#headnav .toolnav{
+    display: inline-block;
+}
+
+#headnav::after{
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+
+
+.navbox{
+    width: 992px;
+   height: 500px;
+   background-color: black;
+   border-radius: 3px;
+ display: none;
+   padding: 0px;
+   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.2);
+}
+
+
+.navbox a{
+   display: block;
+   padding:7px 10px 5px 10px;
+   text-align: start;
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 100;
+}
+.navbox a:link{
+   color:black;
+}
+.navbox a:visited{
+   background-color: white;
+   color:black;
+}
+
+.navbox a:active{
+   color: orangered;
+}
+

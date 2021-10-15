@@ -1,0 +1,198 @@
+/* MOBILE AND TABLET */
+
+
+@media screen and (max-width:992px){
+    .search {
+        display: none;
+      }  
+    #rflheader{
+        height: 40px;
+        background-color: white ;
+        z-index: 10;
+    }
+    #rfllogo{
+       height: 30px;
+       max-width: 125px;
+       position: absolute;
+       top: 0px;
+       left: 40px;
+    }
+
+    #headopt{
+      float:right;
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+       position: fixed;
+       z-index: 10;
+       cursor: pointer;
+       display: flex;
+       justify-content: space-around;
+    }
+    .header{
+        background-color: blue;
+        cursor: pointer;
+        width: 00px;
+        height: 00px;
+      }
+
+      #backover{
+        position:fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5) ;
+    z-index: 100000;
+
+    }
+   .overlay{
+       width: 0;
+       height: 0;
+       display: none;
+       z-index: 0;
+   }
+   .overlay1{
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+
+  #rflnav{
+      display: block;
+      position: fixed;
+  }
+      
+    div .header a:link{
+        font-size: 18px;
+    }
+    div .header a:visited{
+        font-size: 18px;
+    }
+    div .header a:hover{
+        font-size: 18px;
+
+    }
+    div .header a:active{
+        font-size: 18px;
+    }
+
+    #pos{
+        margin-top: -3px;
+        height: 40px;
+        margin-left: -25px;
+    }
+    #pos1{
+        margin-top: -3px;
+        margin-left: -20px;
+    }
+    #pos2{
+        margin-top: -3px;
+        margin-left: 7px;
+    }
+
+
+
+    .dis{
+        display: block;
+    }
+
+  .tooltip1{
+      display: none;
+  }
+ 
+  .verticalmenu{
+      display: none;
+  }
+
+  #opensidenav{
+      display: block;
+  }
+
+  /*search bar in mobile and tablets */
+
+#searchmob{
+    display: flex;
+}
+#searchTermmob{
+    border: 3px solid #4568dc;
+}
+#searchButtonmob{
+    border:0px solid #4568dc;
+}
+#rflnav1{
+    display: none;
+
+}
+
+/* slideshow lines flat */
+
+
+
+}
+
+/*  sidenav topsection */
+
+#topsec{
+    height: 120px;
+    width: 250px;
+    background-color: white;
+    color: white;
+    margin-top: -20px;
+}
+
+
+
+.container{
+    height: 80px;
+    margin-top: -30px;
+    position: relative;
+    text-align: center;
+    color: #4568dc;
+background-color: white;
+}
+
+.top-left{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+#snavimg{
+    width: 270px;
+    height: 130px;
+}
+
+.top-right{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+.bottom-left{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+}
+ div #regbut{
+    position: absolute;
+     left: 100px;
+    top: 50px;
+    color: white;
+}
+ div #regbut a:link{
+color: white;
+}
+
+#butlog {
+     background-image: linear-gradient(to right,#4568dc , #b06ab3);color: white;border-radius: 2px;
+}
+#butlog a:hover{
+    background-color: wheat;
+    color: white;
+    opacity: .8;
+    transition-duration: .3s;
+}

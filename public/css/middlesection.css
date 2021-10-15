@@ -1,0 +1,325 @@
+
+
+.banner{
+    width: 80%;
+    margin-top: 80px;
+    margin-left: 10%;
+}
+
+.banner img {
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  transition: 0.4s all ease;
+}
+.banner img:hover {
+  transform: scale(1.01);
+}
+.catebox {
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    background-color: transparent;
+}
+
+.catebox .dealtitle{
+   margin: auto;
+    width: 80%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: transparent;
+}
+.dealtitle .status{
+    justify-content: center;
+}
+ .status{
+    text-align: center;
+    position: relative;
+    margin-left: 30%;
+    margin-top: -15px;
+    width: 50%;
+    margin-left: 25%;
+    justify-content: center;
+    color: white;
+   
+   background-image: linear-gradient(to right,#667eea,#764ba2); 
+    border-radius: 20px;
+}
+
+
+
+
+
+  .ml15 {
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+  .ml16 {
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  .ml16 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  .ml17 {
+    font-weight: 100;
+    font-size:30px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  
+  .ml17 .word {
+    display: inline-block;
+    line-height: 1em;
+  }
+/*===============================*/
+
+  .catebox .imgbox{
+    position: relative;
+    top: 0px;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap;
+}
+.imgbox div{
+    width: 250px;
+background-color:  transparent;
+}
+ .imgbox div img{
+     width: 100%;
+     border-radius: 5px;
+     transition:0.4s all ease;
+ }
+
+ .catebox .imgbox3{
+  position: relative;
+  top: 0px;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow:wrap;
+}
+.imgbox3 div{
+  width: 250px;
+background-color:  transparent;
+}
+.imgbox3 div img{
+   width: 100%;
+   border-radius: 5px;
+}
+
+ .catebox .imgbox1{
+    position: relative;
+   
+    background-color:transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap;
+}
+.imgbox1 div{
+    width: 250px;
+background-color: white;
+}
+ .imgbox1 div img{
+     width: 100%;
+     border-radius: 5px;
+     margin-top: 1px;
+ }
+ .catebox .imgbox2{
+  position: relative;
+  top: 0px;
+  background-color:white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow:wrap;
+}
+ .imgbox2 div{
+  width: 48%;
+background-color:  transparent;
+
+}
+.imgbox2 div img{
+   width: 100%;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.catebox img:hover{
+    transform: scale(1.03);
+    transition: .5s;
+}
+/*class for timer */
+.dealtitle .timer{
+  font-size: 25px;
+  font-weight: 500;
+  word-spacing: 0;
+  letter-spacing: 0;
+  position: relative;
+  margin-top: -10px;
+ background-image: linear-gradient(to right,#667eea,#764ba2);
+  width: 50%;
+  color: white;
+  margin-left: 25%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width:992px){
+  .catebox .imgbox3{
+    position: relative;
+    top: 0px;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    align-items: stretch;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap;
+  }
+  .imgbox3 div{
+    width: 150px;
+    height: 150px;
+  background-color:  black;
+  float: left;
+  }
+  .imgbox3 div img{
+     width: 100%;
+     border-radius: 5px;
+  }
+  
+  .banner{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 30px;
+    }
+  .banner img {
+      width: 100%;
+      margin: auto;
+      border-radius: 5px;
+      transition: 0.4s all ease;
+    }
+   .catebox .dealtitle{
+        font-size: 10px;
+        width: 100%;
+        font-weight: 500;
+        top: 10px;
+    }
+    .catebox .imgbox{
+        position: relative;
+    top:0px;
+    justify-content: space-evenly;
+    }
+    .imgbox div{
+        width: 42%;
+    background-color:white;
+    margin-top: 15px;
+    }
+
+    .catebox {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .imgbox img{
+        border-radius: 5px;
+    }
+    .catebox{
+      margin-top: 00px;
+    }
+
+    .catebox .imgbox1{
+        position: relative;
+        top: 0px;
+        background-color:white;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-flow:wrap;
+    }
+    .imgbox1 div{
+        width: 45%;
+    background-color: white;
+    }
+     .imgbox1 div img{
+         width: 100%;
+         border-radius: 5px;
+         margin-top: 5px;
+         transition: 0.3s all ease;
+     }
+
+     .imgbox2 div img{
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 0px;
+   }
+
+     .status{
+         margin-top: -10px;
+ width: 60%;
+ margin-left: 20%;
+
+     }
+     .ml15 {
+        font-weight: 100;
+        font-size:20px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+      .ml16 {
+        font-weight: 100;
+        font-size:20px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+      .ml17 {
+        font-weight: 100;
+        font-size:20px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+      }
+
+      .dealtitle .timer{
+        font-size: 15px;
+        font-weight: 500;
+        word-spacing: 0;
+        letter-spacing: 0;
+        position: relative;
+        margin-top: -10px;
+       
+       background-image: linear-gradient(to right,#667eea,#764ba2);
+        width: 60%;
+        color: white;
+        margin-left: 20%;
+        border-radius: 20px;
+        
+      }
+
+      .imgbox2 div{
+        max-width:48%;
+      }
+      .imgbox div img {
+        max-width: 100%;
+        transition: 0.4s all ease;
+    }
+}

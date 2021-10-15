@@ -1,0 +1,572 @@
+#footer{
+width: 100%;
+height: 450px;
+
+margin-top: 100px;
+box-sizing: border-box;
+display: block;
+background-image: linear-gradient(to right,#4568dc , #b06ab3);
+}
+
+
+/*  UPPERBOX MODULE */
+#upperbox{
+    width: 90%;
+    margin-left: 5%;
+    background-color: transparent;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.contentbox{
+    width: 240px;
+    margin-left: 0%;
+    height: 330px;
+   border-radius: 5px;
+    margin-top: 20px;
+
+    font-family: 'Cinzel', serif;
+}
+
+.box{
+     width: 300px;
+     height: 50px;
+     margin-top: -10px;
+     margin-left: 10px;
+    background-color:transparent;
+     color: white;
+    font-style: italic;
+     letter-spacing: 2px;
+}
+.box li{
+    color: black;
+    list-style: none;
+
+}
+.box li:hover{
+    color: black;
+}
+
+#rfltext{
+    width: 130px; border-bottom: 3px solid white;margin-left: 5px;
+}
+#locationbox{
+    width: 220px;background-color: transparent;color: white;margin-left:40px;height: 100px;position: relative;top: -40px;
+    letter-spacing: 0;font-size: 16.5px; word-spacing: 0px;
+}
+#locationsvg{
+    width: 3px; margin-top:10px;height: 30px;background-color:transparent;
+}
+#phonenum{
+    color: aliceblue;height: 30px; width: 150px;background-color: transparent;position: relative; margin-top: -25px;margin-left: 35px;font-size: 18px;text-align: center;
+}
+#emailsvg{
+    margin-top: 10px;
+}
+#emailbox{
+    width: 220px;margin-top: -25px;margin-left: 40px;height: 30px;font-size: 22px;letter-spacing: 0.5px;font-size: 18px;
+}
+#knowus{
+    width: 200px;height: 10px; margin-top: -22px;margin-left: 40px;font-size: 18px;letter-spacing: 2px;
+}
+
+#infosvg1{
+    margin-top: 10px;
+}
+#knowus a:link{
+color: white;
+text-decoration: none;
+}
+#knowus a:visited{
+    color: white;
+}
+#knowus a:hover{
+    color: black;
+    transition-duration: .3s;
+    
+}
+
+/*LOGOS OF SOCIAL CONNECT BOX*/
+#twi{
+    margin-bottom:-7px;
+}
+#you{
+    margin-bottom:-7px;
+}
+#linked{
+    margin-bottom:-7px;
+}
+#inst{
+    margin-bottom:-7px;
+}
+#face{
+    margin-bottom:-7px;
+}
+
+/*LOGOS OF POLICIES  BOX*/
+#return{
+   margin-bottom: -7px;
+}
+#terms{
+    margin-bottom: -7px;
+ }
+ #security{
+    margin-bottom: -7px;
+ }
+ #privacy{
+    margin-bottom: -7px;
+ }
+
+ /*LOGOS OF HELP  BOX*/
+ #payment{
+    margin-bottom: -7px;
+ }
+ #shipping{
+     margin-bottom: -7px;
+  }
+  #cancel{
+     margin-bottom: -7px;
+  }
+  #faq{
+     margin-bottom: -7px;
+  }
+  #sitemap{
+    margin-bottom: -7px;
+ }
+
+ /*LOGOS OF RAFFLEBUCKS   BOX*/
+ #location{
+    margin-bottom: -7px;
+ }
+ #phone{
+     margin-bottom: -7px;
+  }
+  #email{
+     margin-bottom: -7px;
+  }
+  #infosvg{
+     margin-bottom: -7px;
+  }
+  
+
+/* THIS CSS IS FOR BOX NUMBER 2 FOR HELP */
+.helpbox{
+    color: white;
+    width: 80%;
+    margin-left:10%;
+    margin-top: -20px;
+    font-family: 'Cinzel', serif;
+}
+.helptext{
+    font-size: 20px;
+    margin-left: 3%;
+    font-style: italic;
+    width: 100%;
+    margin-top: -24px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align:left;
+    color: white;
+  letter-spacing: 2px;
+}
+.helpbox li{
+    list-style: none;
+    font-size: 18px;
+    text-align:initial;
+    font-style: italic;
+    color: white;
+    margin-left: -60px;
+    padding-top: 15px;
+}
+.helpbox li a:link{
+    color: white;
+    text-decoration: none;
+}
+.helpbox li a:visited{
+    color: white;
+}
+.helpbox li a:hover{
+    color: black;
+    transition-duration: .2s;
+}
+/* LOWERBOX MODULE */
+#lowerbox{
+    width:100%;
+    margin-left: 0%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 0px;
+    height: 100px;
+}
+
+#lowerboxsmall{
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    font-style: italic;
+    color: white;
+}
+
+#logorfl{
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+}
+#logorfl img{
+    width: 160px;
+    height: 40px;
+    border-radius: 2px;
+}
+#copyrighttext{
+    font-size: 17px;width: 200px;margin-top: 40px;
+}
+
+
+
+#fb{
+    color: white;
+}
+#fb:hover{
+    color: #4267B2 ;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#yt{
+    color: white;
+}
+#yt:hover{
+    color: red;
+    transform: scale(1.1);
+    transition: .2s;
+}
+#lin{
+    color: white;
+}
+#lin:hover{
+  color: #0077b5;
+  transform: scale(1.1);
+  transition: .2s;
+}
+#ig{
+    color: white;
+}
+#ig:hover{
+    color: #fccc63;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+#rfltext{
+    width: 110px; border-bottom: 2px solid white;margin-left: 5px;
+}
+#socialtxt{
+    width: 55px; border-bottom: 2px solid white;margin-left: 0px;
+}
+#policytxt{
+    width: 70px; border-bottom: 2px solid white;margin-left: 0px;
+}
+#helptxt{
+    width: 40px; border-bottom: 2px solid white;margin-left: -2px;
+}
+
+
+@media screen  and (max-width:1300px){
+
+    #footer{
+        height: 700px;
+        margin-top:30px;
+        background-color: black; 
+    }
+    #helpraffle{
+        margin-top: 320px;
+       left: 70px;
+       font-size: 10px;
+        position: absolute;
+    }
+    #policyraffle{
+        margin-top: 30px;
+        position: absolute;
+       right: 20px;
+    }
+
+    #Socialrfl{
+        margin-top: 320px;
+        position: absolute;
+        right: 20px;
+    }
+    #lowerbox{
+       margin-top: 300px;
+        height: 0px;
+        background-color: black;
+        z-index: 1000;
+        height: 100px;
+    }
+    
+    #rfltext{
+        width: 140px; border-bottom: 3px solid white;margin-left: 5px;
+    }
+    #socialtxt{
+        width: 70px; border-bottom: 3px solid white;margin-left: 0px;
+    }
+    #policytxt{
+        width: 90px; border-bottom: 3px solid white;margin-left: 0px;
+    }
+    #helptxt{
+        width: 50px; border-bottom: 3px solid white;margin-left: -2px;
+    }
+}
+
+@media screen  and (max-width:992px){
+    #footer{
+        height: 460px;
+        margin-top:00px;
+        background-color: black;
+    }
+    #lowerbox{
+        margin-top: 80px;
+        height: 80px;
+        background-color: black;
+    }
+    .contentbox{
+       
+       height: 200px;
+       width: 150px;
+    }
+
+    .box{
+        margin-top: -20px;
+        
+        width: 250px;
+    }
+
+    #locationbox{
+        position: relative;
+        top: -30px;
+    }
+    #locationsvg{
+     position: relative;
+     top: 10px;
+    }
+
+    #lowerboxsmall{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        font-style: italic;
+        color: white;
+       height: 0px;
+       margin-top:00px;
+    }
+    
+    #logorfl{
+      margin-top: 25px;
+      
+    }
+    #logorfl img{
+        width: 110px;
+        height: 25px;
+        border-radius: 2px;
+    }
+    
+    #copyrighttext{
+        font-size: 12px;width: 200px;margin-top: 25px;
+        position: absolute;
+       right: 2%;
+    }
+    /* #connectwithus{
+        width: 330px;
+        height: 40px;
+        background-color: transparent;
+        position: absolute;
+       margin-top: 70px;
+       left: 5%;
+       font-size: 5px;
+    }
+    #connectustext{
+        font-size: 12px;
+    }
+
+    #connectwithus a:link{
+        font-size: 20px;
+        word-spacing: 0px;
+    } */
+   
+    .helptext{
+        font-size: 15px;
+    }
+    .helpbox{
+        margin-left: 20px;
+    }
+    #rfltext{
+        width: 110px; border-bottom: 2px solid white;margin-left: 5px;
+    }
+    #socialtxt{
+        width: 55px; border-bottom: 2px solid white;margin-left: 0px;
+    }
+    #policytxt{
+        width: 70px; border-bottom: 2px solid white;margin-left: 0px;
+    }
+    #helptxt{
+        width: 40px; border-bottom: 2px solid white;margin-left: -2px;
+    }
+    #knowrafflebucks{
+        margin-top: 30px;
+        background-color: ;
+        position: absolute;
+        left: 30px;
+    }
+
+    #helpraffle{
+        margin-top: 220px;
+       left: 40px;
+       font-size: 10px;
+        position: absolute;
+    }
+    #policyraffle{
+        margin-top: 30px;
+        position: absolute;
+       right: 20px;
+    }
+
+    #Socialrfl{
+        margin-top: 220px;
+        position: absolute;
+        right: 20px;
+    }
+
+    .helpbox li{
+        list-style: none;
+        font-size: 12px;
+    }
+    #locationbox{
+        font-size: 12px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    #phonenum{
+        color: aliceblue;height: 30px; width: 150px;background-color: transparent;position: relative; margin-top: -35px;margin-left: 0px;font-size: 12px;text-align: center;
+    }
+    #emailbox{
+        width: 220px;margin-top: -35px;margin-left: 25px;height: 30px;font-size: 22px;letter-spacing: 0.5px;font-size: 12px;
+    }
+    #knowus{
+        width: 200px;height: 10px; margin-top: -45px;margin-left: 25px;font-size: 12px;letter-spacing: 2px;
+    }
+    #phonesvg{
+        position: relative;top: -17px;
+    }
+    #emailsvg{
+        margin-top: 0px;
+        position: relative;
+        top: -17px;
+    }
+    #infosvg1{
+        margin-top: 10px;
+        position: relative;
+        top: -30px;
+    }
+    #twi{
+        width: 18px;
+        height: 18px;
+        margin-bottom:-4px;
+    }
+    #you{
+        width: 18px;
+        height: 18px;
+        margin-bottom:-4px;
+    }
+    #linked{
+        width: 18px;
+        height: 18px;
+        margin-bottom:-3px;
+    }
+    #inst{
+        width: 18px;
+        height: 18px;
+        margin-bottom:-4px;
+    }
+    #face{
+        width: 18px;
+        height: 18px;
+        margin-bottom:-3px;
+    }
+
+
+    /*LOGOS OF POLICIES  BOX*/
+#return{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+ }
+ #terms{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #security{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #privacy{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+
+  /*LOGOS OF HELP  BOX*/
+ #payment{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+ }
+ #shipping{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #cancel{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #faq{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #sitemap{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+ }
+ /*LOGOS OF RAFFLEBUCKS   BOX*/
+ #location{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+ }
+ #phone{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #email{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+  #infosvg{
+    width: 18px;
+    height: 18px;
+    margin-bottom:-3px;
+  }
+ 
+}

@@ -1,0 +1,355 @@
+#rflheader {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    background-attachment: fixed;
+    z-index: 999;
+    top: 0;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#rfllogo{
+    height: 40px;
+    max-width: 250px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    margin-top: 5px;
+}
+#headopt{
+    width: 240px;
+    height: 50px;
+    float: right;
+    position: absolute;
+    position: fixed;
+    right: 0px;
+    top:0;
+    background-color: transparent;
+    z-index: 999;
+    justify-content: space-around;
+}
+.header{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+div .header a:link{
+    color:black;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+div .header a:visited{
+   color:black;
+   text-decoration: none;
+   font-size: 22px;
+   text-decoration: none;
+}
+div .header a:hover{
+    color: #4568dc;
+    font-size: 22px;
+    transition-duration: .3s;
+    text-decoration: none;
+ }
+ div.header a:active{
+    color: #4568dc;
+    text-decoration:underline;
+    font-size: 22px;
+     text-decoration: none;
+ }
+
+ .tooltip{
+  position: relative;
+  display:block;
+  height: 50px;
+}
+
+.tooltip .tooltipopt{
+  display: none;
+  position: absolute;
+  left: -70px;
+  top: 50px;
+  transform: translateY(50px);
+  transition: all 0.3s ease-out;
+}
+/* for transfrom effect on useroptions */
+.tooltip .tooltipopt.user_opt_transform{
+  transform:translateY(0px);
+  opacity: 1;
+}
+
+.verticalmenu{
+   width: 190px;
+   background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.253);
+  padding: 0px;
+  z-index: 1;
+  
+}
+.verticalmenu a{
+  display: block;
+  padding:7px 10px 5px 10px;
+  text-align: start;
+  text-decoration: none;
+  font-size: 17px;
+  
+  font-weight: 100;
+}
+.verticalmenu a:link{
+  color: #4568dc;
+}
+.verticalmenu a:visited{
+  background-color: white;
+  color:#4568dc;
+}
+.verticalmenu a:hover{
+  color: #4568dc;
+ background-color: #5e83ff57;
+  transition-duration: .3s; 
+}
+.verticalmenu a:active{
+  color: #4568dc;
+}
+
+.tooltip1{
+  position: relative;
+  display:block;
+  height: 50px;
+}
+
+.tooltip1 .tooltipopt1{
+  display: none;
+  position: absolute;
+  right:-10px;
+  top: 50px;
+  background-color:white;
+  z-index: 1;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+  border-radius: 5px;
+  transform: translateY(50px);
+  transition: all 0.3s ease-out;
+}
+.tooltip1 .tooltipopt1.user_opt_transform{
+  transform:translateY(0px);
+  opacity: 1;
+}
+
+
+
+#morebtn{
+  height: 50px;
+}
+
+#pos{
+  margin-left: 5px;float: left;position: relative;top: 0;height: 50px;
+}
+
+#pos1{
+  margin-left: 5px;float: left;margin-top: 0px;
+}
+
+#pos2{
+  margin-left: 5px;float: left;margin-top: 0px;
+}
+
+#pos3{
+  margin-left: 5px; float: left; margin-top: 0px;
+}
+
+
+/*THIS IS FOR SEARCH BAR */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+    color: wheat;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #4568dc;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    color: #4568dc;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #5e83ff57;
+  }
+  
+  .searchTerm:focus{
+    color: black;
+    background-color: white;
+    transition-duration: .3s;
+  }
+  
+  .searchButton {
+    width: 130px;
+    height: 36px;
+    border:0px solid #4568dc;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3);
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{ 
+    width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+  
+  /*Resize the wrap to see the search bar change!*/
+ 
+
+  #opensidenav{
+    position: absolute;left: 8px;top: 7px; font-size:20px;cursor:pointer;font-weight: lighter; 
+    display: none;
+  }
+
+  #sidenav {
+    height: 100%;
+    width:350px;
+    left: -350px;
+    position: fixed;
+    top: 0px;
+    z-index:100000000;
+     opacity: 1;
+    transition: 0.3s;
+    overflow-x: hidden;
+    padding-top: 30px;
+    color:#4568dc ;
+  }
+#sidenavlogo{
+    max-width: 150px;
+    position: absolute;
+    left: 20px;
+}
+
+  #sidenav.enter{
+      left: 0px;
+      opacity: 1;
+  }
+  #sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #sidenav a {
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #4568dc;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #sidenav a:hover {
+    color: #4568dc;
+    background-color: white;
+    background-color: #5e83ff57;
+    transition-duration: .5s;
+  }
+  #closenav
+  {
+    cursor: pointer;
+    
+  }
+  #closenav :hover{
+    background:rgba(255,255,255, 0.5);
+    font-size: 15px;
+  }
+ 
+/* THIS  IS FOR THE NAVIGATION IN DESKTOP AND FOR SEARCH BAR IN MOBILE AND TABLETS */
+
+#rflnav{
+    height:50px;
+    width: 100%;
+  z-index: 9;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.253);
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+
+
+
+/*search bar in mobile and tablets */
+
+#searchmob {
+    width: 100%;
+    position: relative;
+    display: none;
+    height:  35px;
+  }  
+  
+  #searchTermmob {
+    width: 100%;
+    background-color: rgba(235, 235, 235, 0.877);
+   border-left: 2px solid orangered;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;  
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+  
+    box-sizing: border-box;
+    color: black;
+    font-weight: lighter;
+  }
+  
+  #searchTermmob:focus{
+    color: black;
+    background-color: white;
+    transition-duration: .3s;
+  }
+  #searchButtonmob {
+    width: 40px;
+    height: 35px;
+    box-sizing: border-box;
+    border-left: none;
+    border: 2px solid orangered;
+    
+    background-image: linear-gradient(to right,#4568dc , #b06ab3);
+    text-align: center;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  #searchButtonmob:focus{
+      outline: 1px solid black;
+  }
+  
+  #wrap1{
+    position: absolute;
+    left: 5%;
+    height: 35px;
+    margin-top: 7.5px; 
+    width: 90%;
+}
