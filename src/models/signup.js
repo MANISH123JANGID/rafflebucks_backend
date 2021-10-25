@@ -31,11 +31,9 @@ const userSchema= new mongoose.Schema({
 userSchema.virtual('fullName').get(function(){
     return `${this.firstName} ${this.lastName}`
 });
-
 userSchema.methods={
     authenticate: async (password) => {
-        return await bcrypt.compareSync(password,this.hash_password);
-    }
+        return await bcrypt.compare(password,this.hash_password);
+    }   
 };
-
 module.exports= mongoose.model("User",userSchema);

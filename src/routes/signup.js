@@ -9,10 +9,12 @@ router.get('/signup', (req, res) => {
 router.post('/signup',signup);
 
 router.get('/signin', (req, res) => {
-  res.render('login');
+  res.render('signin');
 })
 
-router.post('/signin',signin);
+router.post('/signin',signin,(req, res)=>{
+  res.render('home_page');
+});
 
 router.post('/profile',requiresignin,(req,res)=>{
   res.status(200).json({

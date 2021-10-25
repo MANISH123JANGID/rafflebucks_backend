@@ -1,19 +1,25 @@
 const User = require('../models/signup');
 const jwt=require('jsonwebtoken');
+const bcrypt=require('bcryptjs');
+const {secure_password}=require('../utils');
 exports.signup= (req,res)=>{
+
     User.findOne({ email: req.body.email }).exec(async (error, user) => {
         if (user)
           return res.status(400).json({
             error: "User already registered"
           });
-        const { firstName, lastName, email, hash_password, confirm_hash_password } = req.body
+        const { firstName, lastName, email, password, confirm_password } = req.body
+        
+        const hash_password=await secure_password(password);
+        console.log(hash_password);
         const _user = new User({
           firstName,
           lastName,
           email,
           hash_password
         });
-        if(hash_password===confirm_hash_password){
+        if(password===confirm_password){
           _user.save().then(
             ()=>{
                 res.status(201).json({
@@ -37,17 +43,18 @@ exports.signup= (req,res)=>{
 exports.signin=(req,res) => {
     User.findOne({ email: req.body.email}).exec((err, user) => {
         if(err){
-            return res.status(400).json({message:"SOMETHING WENT WRONG"});
+            return res.status(400).json({message:"User is not registered"});
         }
         if(user){
             if(user.authenticate(req.body.password)){
-                const token=jwt.sign({_id:user._id},process.env.JWT_KEY,{expiresIn:"5m"});
+                const token=jwt.sign({_id:user._id},process.env.JWT_KEY,{expiresIn:"1h"});
                 const {firstName,lastName,email,fullName}=user;
+                res.status(201).render('home_page');
                 res.status(200).json({
-                    token, 
-                    user:{
-                        firstName,lastName,email,fullName
-                    }
+                  token,
+                  user:{
+                    firstName,lastName,email,fullName
+                  }
                 })
             }else{
                 return res.status(400).json({

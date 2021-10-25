@@ -19,25 +19,24 @@ body{
     border-radius: 5px;
     display: block;
     }
- input[type=text],[type=password]{
+ input[type=text],[type=password],[type=email]{
     width: 80%;
     border:none;
     border-bottom:2px solid rgb(185, 185, 185);
     box-sizing: border-box;
     padding: 10px 15px;
-margin-left: 10%;
-margin-top: 20px;
-display: inline-block;
-text-align: initial;
-align-self: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: initial;
+    align-self: center;
   }
-  input[type=text]:focus,[type=password]:focus{
+  input[type=text]:focus,[type=password]:focus,[type=email]:focus{
     outline: none;
     border: none;
     border-bottom:2px solid orangered;
     transition-duration: .3s;
   }
-
   .center {
   display: flex;
     justify-content: center;
@@ -87,7 +86,7 @@ align-self: center;
   width: 80%;
   margin-top: 20px;
 }
-#loginbutton button[type=submit]{
+#loginbutton input[type=submit]{
  width: 100%;
  box-sizing: border-box;
  padding: 10px;
