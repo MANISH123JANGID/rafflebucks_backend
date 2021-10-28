@@ -5,8 +5,10 @@ const {signup,signin,requiresignin} =require('../controllers/signup');
 // routing for the signup process
 router.get('/signup', (req, res) => {
     res.render('signup');
+});  
+router.post('/signup',signup,(req, res)=>{
+  res.render('home_page');
 });
-router.post('/signup',signup);
 
 router.get('/signin', (req, res) => {
   res.render('signin');
@@ -21,6 +23,13 @@ router.post('/profile',requiresignin,(req,res)=>{
     message: 'THIS IS THE PROFILE'
   })
 })
+
+router.get('/mywallet',(req,res)=>{
+  res.render('wallet');
+})
+
+
+
 
 
 module.exports= router;

@@ -1,0 +1,568 @@
+#container{
+    max-width: 80%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 280px;
+   background-color: transparent;
+   display: flex;
+   justify-content: space-around;
+}
+#body{
+    background-color: white;
+    margin-top: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 1000px;
+}
+
+/* #transaction-history{
+    max-width: 80%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+   display: block;
+   border-radius: 10px;
+   background-image: linear-gradient(to right,#4568dc , #b06ab3);
+   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+   justify-content: center;
+   position: relative;
+}
+#transaction-heading{
+    width:100%;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3);
+    height: 60px;
+    background-color: #4568dc;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 18px;
+    position: absolute;
+    background-attachment: fixed;
+ justify-content: center;
+ border-bottom: 2px solid white;
+}
+
+#trans-heading{
+    margin-left: 5px;
+    margin-top: -2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+#history_logo{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#history_logo img{
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.transaction-card{
+    display: flex;
+   width: 95%;
+   height: 80px;
+   background-color: white;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 2.5%;
+   justify-content: space-between;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 100;
+}
+
+#transaction-card-box{
+    position: relative;
+    top: 70px;
+    overflow-y:scroll;
+    height: 400px;
+}
+
+.transaction-logo{
+    height: 60px;
+    width: 60px;
+    background-color: gainsboro;
+    border-radius: 50%;
+   position: relative;
+   top: 10px;
+   left: 20px;
+   justify-content: center;
+}
+.transaction-logo img{
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.transaction-details{
+    width: 40%;
+    height: 40px;
+    background-color:;
+    margin-top: 5px;
+    color: black;
+    font-weight: 100;
+    font-size: 18px;
+}
+.transaction-amount{
+    width: 30%;
+    height: 60px;
+    background-color: ;
+    text-align: right;
+    margin-right: 20px;
+
+} */
+
+
+#header{
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3);
+    display: flex;
+}
+#heading{
+    margin-left: 15px;
+     background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mybucks{
+    background-color:;
+    height: 80px;
+    width: 400px;
+    text-align: center;
+  margin: auto;
+ display: flex;
+ justify-content: center;
+ color: white;
+}
+#wallet_logo{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#wallet_logo img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding-top: 5px;
+}
+
+
+#mybucksbox{
+    display: block;
+    width: 500px;
+    height: 250px;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3); 
+    border-radius: 5px;
+    margin-top: 10px;
+ box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    position: relative;
+}
+ #mybucksbox2{
+    display: block;
+    width: 500px;
+    height: 250px;
+    background-image: linear-gradient(to right,#4568dc , #b06ab3); 
+    border-radius: 5px;
+    margin-top: 10px;
+   margin-left: 20px;
+   position: relative;
+   box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.balance{
+    display: flex;
+    width: 350px;
+    height: 60px;
+    
+    background-color: transparent;
+     color: white;
+     margin-left: 20px;
+     margin-top: 0px;
+     font-size: 30px;
+
+} 
+ .showbalance{
+     display: flex;
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 0px;
+    background-color: transparent;
+     justify-content: center;
+    color: white;
+}
+
+.logoshow{
+  display: flex;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+   justify-content: center;
+}
+.logoshow img{
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.number{
+    background-color:transparent;
+    width: 250px;
+    height: 50px;
+    margin-top: 18px;
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: 2px;
+} 
+.showbalance img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+.transaction{
+    display: flex;
+    background-color: transparent;
+    height: 50px;
+    max-width: 500px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#addmoney{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    padding-top: 0px;
+    display: inline-flex;
+    border: 2px solid green;
+   
+}
+#addmoney img{
+    width: 35px;
+    height: 35px;
+    margin: auto;
+}
+#addmoney span{
+    margin: auto;
+}
+
+#addmoney1{
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+    padding-top: 0px;
+   display: inline-flex;
+   margin-left: 20px;
+}
+#addmoney1 img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+#addmoney1 span{
+    margin: auto;
+}
+#addmoney1:hover{
+    background-color: red;
+    transition-duration: .3s;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.781);
+}
+#addmoney:hover{
+    background-color: green;
+    transition-duration: .3s;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 255, 0, 0.63);
+}
+
+#background-img{
+    width: 200px;
+    height:200px;
+    background-color: transparent;
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20px;
+    
+    
+}
+
+#coin-image{
+    width: 50px;height: 50px;margin-top: 10px;
+}
+#background-img1{
+    width: 200px;
+    height:200px;
+    background-color: transparent;
+    opacity: .7;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20px;
+    
+    
+}
+#background-img2{
+    width: 100px;
+    height:100px;
+    background-color: transparent;
+    opacity: .3;
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    margin-top: -20px;
+    
+    
+}
+
+
+@media screen and (max-width:1200px){
+    #container{
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    #container{
+        max-width: 90%;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+       background-color: transparent;
+       display: flex;
+       flex-wrap: wrap;
+     
+    }
+    #mybucksbox2{
+        margin-left: 0;
+    }
+
+}
+@media screen and (max-width:768px){
+    #container{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:600px){
+    #container{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+    #header{
+        width: 100%;
+        height: 60px;
+    }
+    #heading{
+        margin-left: 10px; background-color: transparent;
+        
+        font-family: 'Times New Roman', Times, serif;
+       font-size: 12px;
+
+    }
+    #mybucks{
+        background-color:black;
+        height: 60px;
+        width: 400px;
+        text-align: center;
+      margin: auto;
+     display: flex;
+     justify-content: center;
+     color: white;
+    }
+    #wallet_logo{
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    #wallet_logo img{
+        width: 30px;
+        height: 30px;
+        margin: auto;
+        padding-top: 5px;
+    }
+    
+    #mybucksbox{
+        display: block;
+        width: 90%;
+        height: 200px;
+        background-image: linear-gradient(to right,#4568dc , #b06ab3); 
+        border-radius: 5px;
+        margin-top: 10px;
+     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+        position: relative;
+    }
+     #mybucksbox2{
+        display: block;
+        width: 90%;
+        height: 200px;
+        background-image: linear-gradient(to right,#4568dc , #b06ab3); 
+        border-radius: 5px;
+        margin-top: 20px;
+       position: relative;
+       box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    }
+    
+    .balance{
+        display: flex;
+        width: 60% ;
+        height: 40px;
+        background-color: transparent;
+         color: white;
+         margin-left: 10px;
+         margin-top: 0px;
+         font-size: 20px;
+    } 
+     .showbalance{
+         display: flex;
+        width:50%;
+        height: 40px;
+        margin-top: 0px;
+        margin-left: 20px;
+        background-color: ;
+         justify-content: center;
+        color: white;
+    }
+    
+    .logoshow{
+      display: flex;
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        border-radius: 50%;
+        margin-top: 5px;
+        margin-left: 5px;
+       justify-content: center;
+    }
+    .logoshow img{
+        width: 25px;
+        height: 25px;
+        padding-top: 5px;
+    }
+    .number{
+        
+        background-color: transparent;
+        width: 250px;
+        height: 30px;
+        margin-top: 18px;
+        margin-left: 10px;
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 2px;
+    } 
+    .showbalance img{
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+    .transaction{
+        display: flex;
+        background-color: transparent;
+        height: 50px;
+        max-width: 400px;
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+    
+    #addmoney{
+        background-color: green;
+        color: white;
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        padding-top: 0px;
+        display: inline-flex;
+        border: 2px solid green;
+       
+    }
+    #addmoney img{
+        width: 25px;
+        height: 25px;
+        margin: auto;
+    }
+    #addmoney span{
+        margin: auto;
+    }
+    
+    #addmoney1{
+        background-color: red;
+        color: white;
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 2px solid red;
+        padding-top: 0px;
+       display: inline-flex;
+       margin-left: 20px;
+    }
+    #addmoney1 img{
+        width: 30px;
+        height: 30px;
+        margin: auto;
+    }
+    #coin-image{
+        width: 40px;height: 40px;margin-top: 10px;
+        margin-left: -6px;
+    }
+
+    #background-img{
+        width: 140px;
+        height:140px;
+        background-color: ;
+        opacity: .7;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: -20px;
+    }
+    #background-img1{
+        width: 140px;
+        height:140px;
+        background-color: ;
+        opacity: .7;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: -20px;
+    }
+}

@@ -37,9 +37,7 @@
 		padding: 0px;
 		font-family: 'Roboto Condensed', Helvetica, sans-serif;
 		font-size: 100%;
-	}
-
-    
+	} 
 	</style>
 	<link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
 	<!--CSS FILES-->
@@ -153,7 +151,10 @@
 					</svg><span>&nbsp; Download App</span></a>
 			</div>
 		</div>
-		<div id="backover"></div> <span id="opensidenav"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span> <img src="Images/IMAGES/Rfllogo.png" alt="Raffle Bucks Logo" id="rfllogo">
+		<div id="backover"></div> <span id="opensidenav"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></span>
+		<a href="/">
+		 <img src="Images/IMAGES/Rfllogo.png" alt="Raffle Bucks Logo" id="rfllogo">
+		 </a>
 		<!-- SEARCH BAR -->
 		<div class="wrap">
 			<div class="search">
@@ -176,7 +177,7 @@
 				</div>
 				<div class="tooltipopt">
 					<div class="verticalmenu" id="vtw">
-						<a href="/signin">
+						<a href="signin">
 							<svg style="margin-bottom: -2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in">
 								<path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
 								<polyline points="10 17 15 12 10 7"></polyline>
@@ -188,7 +189,8 @@
 								<circle cx="8.5" cy="7" r="4"></circle>
 								<line x1="20" y1="8" x2="20" y2="14"></line>
 								<line x1="23" y1="11" x2="17" y2="11"></line>
-							</svg><span>&nbsp; Create Account</span></a> <a href="#"><i class="fas fa-wallet"></i><span>&nbsp; My Bucks</span></a>
+							</svg><span>&nbsp; Create Account</span></a>
+							 <a href="/mywallet"><i class="fas fa-wallet"></i><span>&nbsp; My Bucks</span></a>
 						<a href="#">
 							<svg style="margin-bottom: -2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
 								<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
@@ -285,35 +287,48 @@
 	</div>
 	<div class="flex-container" id="rflnav1">
 		<div id="headnav">
-			<div class="toolnav" id="electro" style="margin-left: 20px;">
-				<div class="navname"><span>Mobiles</span></div>
+			<div class="toolnav"  style="margin-left: 20px;">
+				<div class="navname">
+					<span>
+						<a href="/mobiles">
+						Mobiles
+						</a>
+					</span>
+				</div>
 				<div id="navbox1"> </div>
 			</div>
-			<div class="toolnav" id="home">
-				<div class="navname"><span>Mobile Accessories</span></div>
-				<div id="navbox2"> </div>
+			<div class="toolnav">
+				<div class="navname">
+					<span>
+							Mobile Accessories
+					</span></div>
+				<div id="navbox"> </div>
 			</div>
-			<div class="toolnav" id="men">
+			<div class="toolnav" >
 				<div class="navname"><span>Electronics</span></div>
 				<div id="navbox3"> </div>
 			</div>
-			<div class="toolnav" id="women">
+			<div class="toolnav" >
 				<div class="navname"><span>Men</span></div>
 				<div id="navbox4"> </div>
 			</div>
-			<div class="toolnav" id="baby">
+			<div class="toolnav" >
 				<div class="navname"><span>Women</span></div>
 				<div id="navbox5"> </div>
 			</div>
-			<div class="toolnav" id="homeapp">
+			<div class="toolnav" >
 				<div class="navname"><span>Baby & Kids</span></div>
 				<div id="navbox6"> </div>
 			</div>
-			<div class="toolnav" id="sports">
-				<div class="navname"><span>Games</span></div>
+			<div class="toolnav" >
+				<div class="navname">
+					<span>
+						<a href="/games">Games</a>
+					</span>
+				</div>
 				<div id="navbox7"> </div>
 			</div>
-			<div class="toolnav" id="contest" style="margin-right: 20px;">
+			<div class="toolnav"  style="margin-right: 20px;">
 				<div class="navname"> <span>Quizz Contests</span></div>
 				<div id="navbox8"> </div>
 			</div>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Page</title>
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/Navdesk.css">
+    <link rel="stylesheet" href="css/MobandTab.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- CDN LINKS AND JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/Header.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/game.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body class="body">
+   {{>navbar}}
+    <div class="banner_box">
+      <div class="productImages owl-carousel">
+        <div class="item">
+            <img src="Images/games_images/banner.png">
+        </div>
+        <div class="item ">
+          <img src="Images/games_images/banner1.png">
+        </div>
+        <div class="item">
+          <img src="Images/games_images/banner3.png">
+        </div>
+      </div>
+    </div>
+    <!-- HIGHLIGHTS HERE-->
+    <div class="winner_headlines_container">
+      <div>
+        <marquee width="1200" behavior="scroll" direction="left" scrollamount="20" vspace="25">
+          Devanshu Parik from Jaipur- Won Iphone 13 Pro Max &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; Manish Jangid from Jaipur- Won Ktm duke 390
+          &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;
+          Tanmay from Delhi- Won &#8377;1 Lakh &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; Manish Jangid from Jaipur- Won Ktm duke 390
+        </marquee>
+        <!-- <marquee width="1200px" behavior="scroll" direction="right" scrolldelay="2">
+          Devanshu Parik from Jaipur- Won Iphone 13 Pro Max
+        </marquee>
+        <marquee width="1200px" behavior="scroll" direction="right" scrolldelay="2">
+          Devanshu Parik from Jaipur- Won Iphone 13 Pro Max
+        </marquee>
+        <marquee width="1200px" behavior="scroll" direction="right" scrolldelay="2">
+          Devanshu Parik from Jaipur- Won Iphone 13 Pro Max
+        </marquee> -->
+      </div>
+    </div>
+    <!--NO. OF GAMES, PRIZE DETAILS ETC-->
+    <div class="details_box">
+      <div class="detail_item">
+        <div>
+          <img src="Images/games_images/gameoopad.jpg">
+        </div>
+        <div>
+          <h2>
+            25+ GAMES
+          </h2>
+        </div>
+      </div>
+      <div class="detail_item">
+          <div>
+            <img src="Images/games_images/user.png">
+          </div>
+          <div>
+            <h2>
+              25L+ Happy <br>
+              Gamers
+            </h2>
+          </div>
+      </div>
+      <div class="detail_item">
+        <div>
+          <img src="Images/games_images/money.png">
+        </div>
+        <div>
+          <h2>
+            Prizes Worth &#8377; 2Cr Distributed
+          </h2>
+        </div>
+      </div>
+      <div class="detail_item">
+        <div>
+          <img src="Images/games_images/withdrwal.jpg">
+        </div>
+        <div>
+          <h2>
+            Easy & Fast <br>
+            Withdrawl
+          </h2>
+        </div>
+      </div>
+    </div>
+    <!-- PROPERTIES ENDS HERE-->
+    <!--GAMING CATEGORIES STARTS HERE-->
+    <div class="games_categories">
+      <div class="category_heading">
+        <div>
+          <h1>Categories</h1>
+        </div>
+        <div>
+          <button type="button" class="btn_show_all">
+            Show More
+          </button>
+        </div>
+      </div>
+      <div class="category_box">
+        <a href="#cate_sports" class="category_item">
+          <div>
+            <img src="Images/games_images/cricket.jpg">
+          </div>
+          <div>
+            <h2>
+              Sports
+            </h2>
+          </div>
+        </a>
+        <a href="#action" class="category_item">
+          <div>
+            <img src="Images/games_images/action.jpg">
+          </div>
+          <div>
+            <h2>
+              Action
+            </h2>
+          </div>
+        </a>
+        <a href="#racing" class="category_item">
+          <div>
+            <img src="Images/games_images/racing.webp">
+          </div>
+          <div>
+            <h2>
+              Racing 
+            </h2>
+          </div>
+        </a>
+        <a href="#multiplayer" class="category_item">
+          <div>
+            <img src="Images/games_images/multi.jpg">
+          </div>
+          <div>
+            <h2>
+              Multiplayer 
+            </h2>
+          </div>
+        </a>
+      </div>
+      <div class="hidden_cate_box">
+        <div class="category_box show_all_box">
+          <a href="#runner" class="category_item">
+            <div>
+              <img src="Images/games_images/runner.png">
+            </div>
+            <div>
+              <h2>
+                Endless Runner
+              </h2>
+            </div>
+          </a>
+          <a href="#puzzle" class="category_item">
+            <div>
+              <img src="Images/games_images/puzzle.png">
+            </div>
+            <div>
+              <h2>
+                Puzzle
+              </h2>
+            </div>
+          </a>
+          <a href="#brain" class="category_item">
+            <div>
+              <img src="Images/games_images/brain.png">
+            </div>
+            <div>
+              <h2>
+                Brain Teaser
+              </h2>
+            </div>
+          </a>
+          <a href="#adventure" class="category_item">
+            <div>
+              <img src="Images/games_images/advenrture.jpg">
+            </div>
+            <div>
+              <h2>
+                Adventure 
+              </h2>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Live contest images starts here-->
+    <div class="live_contests">
+      <div>
+        <h1>Live Contests</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/gamingco.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/gamingco.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/contest1.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/contest2.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+         <!-- Live contest images Ends here-->
+    <!--SPORTS CATEGORY STARTS HERE-->
+    <div class="live_contests" id="cate_sports">
+      <div>
+        <h1>Sports</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a id="cricket">
+              <img src="./Images/games_images/cricketfever.jpg ">
+            </a>
+          </div>
+          <div class="item">
+            <a class="three_d_hockey">
+              <img src="./Images/games_images/3dhockey.png">
+            </a>
+          </div>
+          <div class="item">
+            <a id="football">
+              <img src="./Images/games_images/penalty_shooters.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a id="basket">
+              <img src="./Images/games_images/tap_top.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--GAME RUNNING BOX HIDDLEN STARTS HERE-->
+    <!-- THIS IS THE 3D AIR HOCKEY GAME-->
+      <div class="game_container_overlay" id="hockey_game_overlay">
+          <div id="hockey_game">
+          </div>
+          <div class="close_btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </div>
+      </div>
+    <!-- THIS IS THE 3D AIR HOCKEY GAME  ENDS HERE-->
+   
+ <!-- Cricket FEVER GAME-->
+<div class="game_container_overlay" id="cricket_game_overlay" >
+  <div id="cricket_game">
+  </div>
+  <div class="close_btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </div>
+</div>
+<!-- Cricket FEVER ENDS-->
+<!-- BASKET BALL GAME-->
+<div class="game_container_overlay" id="basket_game_overlay" >
+  <div id="basket_game">
+  </div>
+  <div class="close_btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </div>
+</div>
+<!--  BASKET BALL ENDS-->
+<!-- Football GAME-->
+<div class="game_container_overlay" id="football_game_overlay" >
+  <div id="football_game">
+  </div>
+  <div class="close_btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </div>
+</div>
+<!-- Football Game ENDS-->
+<!-- Car GAME-->
+<div class="game_container_overlay" id="car_game_overlay" >
+  <div id="car_game">
+  </div>
+  <div class="close_btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+  </div>
+</div>
+<!-- Car Game ENDS-->
+
+<!-- GAME BOX ENDS HERE-->
+    <!--ACTION CATEGORY STARTS-->
+    <div class="live_contests" >
+      <div id="action">
+        <h1>Action</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/sillysname.png">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--ACTION CATEGORY ENDS HERE -->
+     <!--RACING CATEGORY STARTS-->
+     <div class="live_contests" >
+      <div id="racing">
+        <h1>Racing</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a id="car">
+              <img src="./Images/games_images/car_driver.png">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--RACING CATEGORY ENDS HERE -->
+    <!--Multiplayer CATEGORY STARTS-->
+    <!-- <div class="live_contests" id="multiplayer" >
+      <div>
+        <h1>Multiplayer</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/cricket_gunda.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--Multiplayer CATEGORY ENDS HERE -->
+     <!--ENDLESS CATEGORY STARTS-->
+     <!-- <div class="live_contests" >
+      <div id="runner">
+        <h1>Endless Runner</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/cricket_gunda.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Endless CATEGORY ENDS HERE -->
+     <!--Puzzle CATEGORY STARTS-->
+     <!-- <div class="live_contests" id="puzzle">
+      <div >
+        <h1>Puzzle</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/cricket_gunda.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Puzzle CATEGORY ENDS HERE -->
+    <!--Brain Teaser CATEGORY STARTS-->
+    <!-- <div class="live_contests" id="brain">
+      <div >
+        <h1>Brain Teasers</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/cricket_gunda.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--Brain Teaser CATEGORY ENDS HERE -->
+    <!--Brain Teaser CATEGORY STARTS-->
+    <!-- <div class="live_contests" id="adventure">
+      <div >
+        <h1>Adventure</h1>
+      </div>
+      <div class="contest_container">
+        <div class="owl-carousel contest">
+          <div class="item">
+            <a href="" target="">
+              <img src="./Images/games_images/cricket_gunda.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+          <div class="item">
+            <a href="#">
+              <img src="./Images/games_images/soccer.jpg">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--Brain Teaser CATEGORY ENDS HERE -->
+   <!-- owl carousel -->
+    <!-- Play.iDevGames.co.uk Responsive Embed Code for SillySnake -->
+
+
+
+
+  
+   
+
+
+   <script>
+    jQuery('.productImages').owlCarousel({
+        loop: false,
+        margin: 0,
+        nav: true,
+        items: 1,
+        autoplay: true,
+        smartSpeed: 1000
+    })
+    jQuery('.contest').owlCarousel({
+        loop: false,
+        margin: 0,
+        nav: true,
+        items: 2,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsiveClass:true,
+          responsive:{
+            0:{
+                items:2,
+                nav:false
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            800:{
+                items:4,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:false
+            }
+          } 
+    })
+
+    /* Play.iDevGames.co.uk Responsive Embed Code for Sil_lySnake */
+    
+
+</script>
+
+</body>
+</html>

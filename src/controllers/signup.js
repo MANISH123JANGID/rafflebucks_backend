@@ -1,9 +1,8 @@
 const User = require('../models/signup');
 const jwt=require('jsonwebtoken');
-const bcrypt=require('bcryptjs');
+const bcrypt=require('bcryptjs'); 
 const {secure_password}=require('../utils');
-exports.signup= (req,res)=>{
-
+exports.signup= (req,res,next) =>{
     User.findOne({ email: req.body.email }).exec(async (error, user) => {
         if (user)
           return res.status(400).json({
@@ -12,7 +11,6 @@ exports.signup= (req,res)=>{
         const { firstName, lastName, email, password, confirm_password } = req.body
         
         const hash_password=await secure_password(password);
-        console.log(hash_password);
         const _user = new User({
           firstName,
           lastName,
@@ -38,9 +36,10 @@ exports.signup= (req,res)=>{
           })
         }
       });
+      next();
 }
 
-exports.signin=(req,res) => {
+exports.signin=(req,res,next) => {
     User.findOne({ email: req.body.email}).exec((err, user) => {
         if(err){
             return res.status(400).json({message:"User is not registered"});
@@ -48,23 +47,23 @@ exports.signin=(req,res) => {
         if(user){
             if(user.authenticate(req.body.password)){
                 const token=jwt.sign({_id:user._id},process.env.JWT_KEY,{expiresIn:"1h"});
-                const {firstName,lastName,email,fullName}=user;
-                res.status(201).render('home_page');
-                res.status(200).json({
-                  token,
-                  user:{
-                    firstName,lastName,email,fullName
-                  }
-                })
-            }else{
+                const {_id,firstName,lastName,email,fullName}=user;
+                // res.status(201).render('home_page');
+                // res.status(200).json({
+                //   token,
+                //   user:{
+                //     firstName,lastName,email,fullName
+                //   }
+                // })
+            }
+            else{
                 return res.status(400).json({
                     message: "Invalid PASSWORD"
                 })
             }
-
         }
-
     })
+    next();
 }
 
 exports.requiresignin= (req,res,next) => {

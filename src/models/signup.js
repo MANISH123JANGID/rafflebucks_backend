@@ -21,6 +21,11 @@ const userSchema= new mongoose.Schema({
     hash_password: {
         type: String,
         required: true
+    },
+    role: {
+        type:String,
+        enum: ['customer','admin'],
+        default: 'customer'
     }
 },
 {
@@ -30,10 +35,15 @@ const userSchema= new mongoose.Schema({
 
 userSchema.virtual('fullName').get(function(){
     return `${this.firstName} ${this.lastName}`
-});
+}); 
 userSchema.methods={
     authenticate: async (password) => {
-        return await bcrypt.compare(password,this.hash_password);
+        try{
+            return await bcrypt.compare(password,this.hash_password);
+        }
+        catch(err){
+           
+        }
     }   
 };
 module.exports= mongoose.model("User",userSchema);

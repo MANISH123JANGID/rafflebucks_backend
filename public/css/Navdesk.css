@@ -25,13 +25,10 @@
     display: block;
     margin-top: 0px;
     background-color: transparent;
-}
+} 
 
-
-.toolnav:hover{
-    color: black;
-    border-bottom: 2px solid black;
-    cursor: pointer;
+#headnav .toolnav a:link{
+    color: red!important;
 }
 
  #navbox1{

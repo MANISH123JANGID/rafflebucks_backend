@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+ <!--CDN's-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+   <script defer src="https://use.fontawesome.com/releases/v5.13.0/js/v4-shims.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+   
+
+<!--        -->
+
+   <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+   <!--CSS FILES-->
+   <link rel="stylesheet" href="css/Header.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/middlesection.css">
+   <link rel="stylesheet" href="css/MobandTab.css">
+   <link rel="stylesheet" href="css/Navdesk.css">
+   <link rel="stylesheet" href="css/Slideshow.css">
+   
+  
+    
+
+     <style>
+      body{
+          
+          margin: 0px;
+          padding: 0px;
+          font-family:'Roboto Condensed',Helvetica,sans-serif;
+          font-size: 100%;
+          background-color: white;
+      }
+  </style>
+</head>
+<body>
+   {{>navbar}}
+   
+        <!--THIS IS FOR THE SLIDESHOW-->
+        
+        <div style="position: absolute;top: 90px;width: 100%;z-index:-1000;">
+          <div class="slideshow-container" >
+          <div class="containers">
+                <div class="mySlides fade">
+                  <img src="/Raffle_Bucks/FRONT-END/Mobile Page/IMAGES/Banner1.png">
+                </div>
+                <div class="mySlides fade">
+                  <img src="/Raffle_Bucks/FRONT-END/Mobile Page/IMAGES/Banner2.png">
+                </div>
+                <div class="mySlides fade">
+                  <img src="/Raffle_Bucks/FRONT-END/Mobile Page/IMAGES/Banner3.png">
+                </div>
+                <!-- <div class="mySlides fade">
+                  <img src="images/IMAGES/slide4.png">
+                </div>
+                <div class="mySlides fade">
+                  <img src="images/IMAGES/slide20.png">
+                </div> -->
+                <a  onclick="plusSlides(-1)">  <div class="prev">&#10094;</div></a>
+          <a  onclick="plusSlides(1)"><div class="next">&#10095;</div></a>
+          </div>
+        <div id="dotsty"> 
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <!-- <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> -->
+           </div>
+        </div>
+
+        <!--CONTENT FOR THE MOBILE PAGE STARTS HERE ONLY-->
+        
+        <div class="catebox">
+          <div class="dealtitle"><h1 style="border-bottom: 2px solid rgb(0, 0, 0);">BEST OFFERS FOR YOU</h1></div>
+          <div class="imgbox1">
+          <div> <a href="#"><img src="IMAGES/BEN1.png"></a></div>
+          <div> <a href="#"><img src="IMAGES/BEN2.png"></a></div>
+          <div> <a href="#"><img src="IMAGES/BEN3.png"></a></div>
+          <div> <a href="#"><img src="IMAGES/BEN4.png"></a></div>
+          </div>
+          </div>
+        
+        <div class="banner"><a href="#"><img src="IMAGES/ROG.png"></a></div>
+        <div class="catebox">
+        <div class="dealtitle"><h1 style="border-bottom: 2px solid black;">SHOP BY BRANDS</h1>
+         
+        
+        </div>
+        <div class="imgbox3"> 
+        <div> <a href="#"><img src="IMAGES/apple.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/mi.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/mi.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/oppo.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/realme.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/samsung.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/oneplus.png"></a></div>
+        <div> <a href="#"><img src="IMAGES/vivo.png"></a></div>
+        </div>
+        
+        </div>
+        
+        <div class="catebox">
+          <div class="dealtitle"><h1 style="border-bottom: 2px solid black;">SHOP BY BUDGET</h1>
+           </div>
+          
+          <div class="imgbox"> 
+          <div style="width: 200px;"> <a href="#"><img style="border-radius: 60%;"src="IMAGES/BELOW1.png"></a></div>
+          <div style="width: 200px;"> <a href="#"><img style="border-radius: 60%;" src="IMAGES/BELOW2.png"></a></div>
+          <div style="width: 200px;"> <a href="#"><img style="border-radius: 60%;" src="IMAGES/BELOW3.png"></a></div>
+          <div style="width: 200px;"> <a href="#"><img style="border-radius: 60%;" src="IMAGES/BELOW4.png"></a></div>
+          <div style="width: 200px;"> <a href="#"><img style="border-radius: 60%;" src="IMAGES/BELOW4.png"></a></div>
+          </div>
+          </div>
+          <div class="banner"><a href="#"><img src="IMAGES/POCO.png"></a></div>
+          <div class="catebox">
+            <div class="dealtitle"><h1 style="border-bottom: 2px solid black;">BESTSELLERS</h1>
+              <!-- <div class="status">
+                <h1 class="ml17 ">
+                  <span class="word">Live</span>
+                  <span class="word">Now!</span>
+                </h1>
+                </div> -->
+                <!-- <p id="demo1" class="timer"></p> -->
+              </div>
+            
+            <div class="imgbox2"> 
+            <div> <a href="#"><img src="IMAGES/MI1.png"></a></div>
+            <div> <a href="#"><img src="IMAGES/REAL1.png"></a></div>
+            <div> <a href="#"><img src="IMAGES/MI4.png"></a></div>
+            <div> <a href="#"><img src="IMAGES/MI3.png"></a></div>
+            </div>
+            </div>
+            <div class="catebox">
+              <div class="dealtitle"><h1 style="border-bottom: 2px solid black;">TRENDING SMARTPHONES</h1>
+                <!-- <div class="status">
+                  <h1 class="ml16">
+                    <span class="word" id="coming">Coming</span>
+                    <span class="word" id="soon">Soon!</span>
+                  </h1>
+                  </div>
+                  <p id="demo" class="timer"></p> -->
+              </div> 
+              
+              <div class="imgbox2"> 
+              <div> <a href="#"><img src="IMAGES/REAL.png"></a></div>
+              <div> <a href="#"><img src="IMAGES/REAL1.png"></a></div>
+              <div> <a href="#"><img src="IMAGES/REAL2.png"></a></div>
+              <div> <a href="#"><img src="IMAGES/TRENDIN.png"></a></div>
+              </div>
+              </div>
+              <div class="banner"><a href="#"><img src="IMAGES/F12.png"></a></div>
+              <div class="catebox">
+                <div class="dealtitle"><h1 style="border-bottom: 2px solid black;">Suggested Products</h1>   
+                </div> 
+                
+                <div class="imgbox2"> 
+                  <div> <a href="#"><img src="IMAGES/REAL.png"></a></div>
+                  <div> <a href="#"><img src="IMAGES/REAL1.png"></a></div>
+                  <div> <a href="#"><img src="IMAGES/REAL2.png"></a></div>
+                  <div> <a href="#"><img src="IMAGES/TRENDIN.png"></a></div>
+        
+          
+                </div>
+                </div>
+        
+        
+         
+                  
+                <div class="banner"><a href="#"><img src="IMAGES/F12.png"></a></div>
+
+
+
+
+
+
+
+
+
+             
+             <!--     FOOTER STARTS HERE      -->
+        <footer>
+             <div id="footer">
+        <div id="upperbox">
+        <div class="contentbox" id="knowrafflebucks">
+        
+          <div class="helptext"> <h3 id="rfltext">RaffleBucks</h3></div>
+        
+        <!-- box for location and adress -->
+        <div class="box" style="height: 100px;">
+         <div id="locationsvg"> <svg id="location" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map-pin"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></div>
+             <div id="locationbox">
+               <p style="margin-top: 5px;"> RaffleBucks Building, Begonia and Clove Embassy Tech Village, Outer Ring Road, Bengaluru 560103, Karnataka, India</p>
+             </div>
+        </div>
+        <!-- box for phone number  -->
+        <div class="box">
+          <div id="phonesvg"> <svg id="phone" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></div>
+          <div id="phonenum"> 1800 202 9898</div>
+        </div>
+        <!-- box for email  -->
+        <div class="box">
+        <div id="emailsvg"><svg id="email" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
+        <div id="emailbox">support@rafflebucks.com </div>
+        </div>
+        <div class="box">
+          
+        
+          <a href="#" style="text-decoration: none;"><div id="infosvg1">
+         <svg id="infosvg" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-info"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+        <div id="knowus" style="text-decoration: none;">Know RaffleBucks</div>
+        </div>
+        </a>
+        </div>
+        <!-- THIS IS BOX NUMBER 2 for help and support -->
+        <div class="contentbox" id="helpraffle">
+          <div class="helptext"> <h3 id="helptxt"> Help</h3></div> 
+        <div class="helpbox">
+        <ul>
+          <li>
+            <a href="#" > <svg id="payment" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg><span>&nbsp; Payment</span> </a>
+             </li>
+             <li>
+               <a href="#" ><svg id="shipping" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg> <span>&nbsp;Shipping</span></a>
+             </li>
+           <li>
+            <a href="#"><svg id="cancel" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-square"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></svg><span>&nbsp; Cancellation & Return</span></a>
+           </li>
+           <li>
+            <a href="#"><svg id="faq" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-help-circle"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg><span>&nbsp; FAQ's</span></a>
+           </li>
+           <li>
+           <a href="#"><svg id="sitemap"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M22 18v-7h-9v-5h3v-6h-8v6h3v5h-9v7h-2v6h6v-6h-2v-5h7v5h-2v6h6v-6h-2v-5h7v5h-2v6h6v-6z"/></svg><span>&nbsp; Sitemap</span></a>
+           </li>
+        </ul>
+        </div>
+        </div>
+        <div class="contentbox" id="policyraffle">
+          <div  class="helptext" ><h3  id="policytxt"> Policies </h3> </div> 
+          <div class="helpbox">
+          
+          <ul>
+           
+          <li>
+            <a href="#" > <svg id="return"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-corner-down-left"><polyline points="9 10 4 15 9 20"></polyline><path d="M20 4v7a4 4 0 0 1-4 4H4"></path></svg><span>&nbsp; Return Policy</span></a>
+             </li>
+             <li>
+               <a href="#" > <svg id="terms"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg><span>&nbsp; Terms of Use</span></a>
+             </li>
+           <li>
+            <a href="#"><svg id="security"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shield"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg><span>&nbsp; Security</span></a>
+           </li>
+           <li>
+            <a href="#"><svg id="privacy"  xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg><span>&nbsp; Privacy</span></a>
+           </li>
+          </ul>
+          </div>
+        </div>
+        
+        
+        
+        <!-- THIS BOX IS FOR THE JOIN US SECTION -->
+        <div class="contentbox" id="Socialrfl">
+          <div  class="helptext" ><h3  id="socialtxt"> Social</h3> </div> 
+          <div class="helpbox">
+          
+          <ul>
+           
+          <li>
+            <a href="#" > <svg id="face"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg><span>&nbsp; Facebook</span></a>
+             </li>
+             <li>
+               <a href="https://instagram.com/the__cyber_warrior__?igshid=18igae6zvvo85" > <svg id="inst"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg><span>&nbsp; Instagram</span></a>
+             </li>
+           <li>
+            <a href="#"><svg id="linked" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg><span>&nbsp; LinkedIN</span></a>
+           </li>
+           <li>
+            <a href="#"><svg id="you"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg><span>&nbsp; Youtube</span></a>
+           </li>
+           <li>
+            <a href="#"><svg id="twi" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg><span>&nbsp; Twitter</span></a>
+           </li>
+          </ul>
+          </div>
+        </div>
+        </div>
+        
+        <div id="lowerbox">
+        <div id="lowerboxsmall">
+          <div id="logorfl"><img src="Images/IMAGES/Rfllogo.png">
+         
+          </div>
+          <span id="copyrighttext" >&copy; 2023-30 RaffleBucks.com</span>
+         
+        </div>
+        </div>
+             </div>
+        </footer>
+        <!--           FOOTER ENDS HERE!!!         -->
+        <script src="/Home_Page/JS/Header.js"></script>
+        <script src="/Home_Page/JS/Slideshow.js"></script>
+        <script src="/Home_Page/JS/midsec.js"></script>
+ 
+</body>
+</html>

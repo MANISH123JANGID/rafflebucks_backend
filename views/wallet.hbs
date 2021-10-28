@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Wallet 
+</title>
+<!--  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<link rel="stylesheet" href="css/wallet/Wallet.css">
+<link rel="stylesheet" href="css/wallet/Transaction.css">
+
+<link rel="stylesheet" href="css/Header.css">
+	<link rel="stylesheet" href="css/Navdesk.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JS\Header.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+</head>
+{{>navbar}}
+
+<body id="body">
+<div class="fluid-container">
+    <div id="header">
+
+        <div id="mybucks">
+
+            <div id="wallet_logo">
+
+                <img src="Images/IMAGES/wallet.png"> 
+                
+            </div>
+<div id="heading"><h1> My Wallet</h1></div>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="container" >
+
+<div id="mybucksbox" >
+
+    <img id="background-img" src="Images/IMAGES/—Pngtree—wad of cash_1933168.png">
+
+<div class="balance">
+    <div class="logoshow">
+        <img src="Images/IMAGES/rupee.png">
+    </div>
+    <div style="margin-left: 10px;margin-top: 12px;">
+<span >  Available Bucks </span>
+</div>
+</div>  
+  
+<div class="showbalance">
+<img src="Images/IMAGES/indian-rupee-48.png">
+<div class="number"><span>55,685.75</span> </div>
+</div> 
+
+<div class="transaction">
+<button id="addmoney"><img  src="Images/IMAGES/money-add-512.png"><span>ADD MONEY</span> </button>
+<button id="addmoney1"><img  src="Images/IMAGES/—Pngtree—cash withdrawal icon_3700442.png"><span>WITHDRAW</span></button>
+</div>
+</div>
+
+
+
+<div id="mybucksbox2"> 
+    <img id="background-img1" src="Images/IMAGES/—Pngtree—cartoon opened wooden treasure chest_5714501.png">
+   
+    <div class="balance">
+        <div class="logoshow">
+            <img src="Images/IMAGES/icons8-coin-96.png">
+        </div>
+        <div style="margin-left: 10px;margin-top: 12px;">
+    <span >  Available Coins</span>
+    </div>
+    </div>  
+      
+    <div class="showbalance">
+    <img id="coin-image" src="Images/IMAGES/icons8-coin-96.png">
+    <div class="number"><span>554558</span> </div>
+    </div> 
+    
+    <div class="transaction">
+    <button id="addmoney"><img  src="Images/IMAGES/money-add-512.png"><span>EARN COINS</span> </button>
+    <button id="addmoney1"><img  src="Images/IMAGES/—Pngtree—cash withdrawal icon_3700442.png"><span>USE COINS</span></button>
+    </div>
+
+</div>
+</div>
+<div id="transaction-history">
+<div id="transaction-heading">
+   <div> 
+     <div id="history_logo">  <img src="Images/IMAGES/icons8-buy-for-coins-96.png"> </div>
+   </div>
+   <div id="trans-heading"><h3>Transaction History</h3></div>
+</div>
+<div id="transaction-card-box">
+<div class="transaction-card">
+
+<div class="transaction-logo">
+<img src="Images/IMAGES/money-add-512.png">
+</div>
+<div class="transaction-details">
+    <div style="display: flex;">
+        <div>
+<h2>Money Added | </h2></div>
+<div class="transaction-date"><span>&nbsp;  12 OCT,2021</span></div>
+</div>
+</div>
+<div class="transaction-amount">
+<h1>+350</h1>
+</div>
+
+</div>
+<div class="transaction-card">
+
+    <div class="transaction-logo">
+        <img src="Images/IMAGES/—Pngtree—cash withdrawal icon_3700442.png">
+    </div>
+    <div class="transaction-details">
+        <div style="display: flex;">
+            <div>
+    <h2>Money Withdrawn | </h2></div>
+    <div class="transaction-date" ><span>&nbsp;  12 OCT,2021</span></div>
+    </div>
+    </div>
+    <div class="transaction-amount">
+    <h1>-500</h1>
+    </div>
+
+
+</div>
+
+<div class="transaction-card">
+
+    <div class="transaction-logo">
+        <img src="Images/IMAGES/icons8-coin-96.png">
+    </div>
+    <div class="transaction-details">
+        <div style="display: flex;">
+            <div>
+    <h2>Coins Earned | </h2></div>
+    <div class="transaction-date"><span>&nbsp;  5 OCT,2021</span></div>
+    </div>
+    </div>
+    <div class="transaction-amount">
+    <h1>+500</h1>
+    </div>
+
+
+</div>
+
+
+<div class="transaction-card">
+
+    <div class="transaction-logo">
+        <img src="Images/IMAGES/—Pngtree—cash withdrawal icon_3700442.png">
+    </div>
+    <div class="transaction-details">
+        <div style="display: flex;">
+            <div>
+    <h2>Money Withdrawn | </h2></div>
+    <div class="transaction-date" ><span>&nbsp;  12 OCT,2021</span></div>
+    </div>
+    </div>
+    <div class="transaction-amount">
+    <h1>-500</h1>
+    </div>
+
+
+</div>
+
+
+<div class="transaction-card">
+
+    <div class="transaction-logo">
+        <img src="Images/IMAGES/icons8-coin-96.png">
+    </div>
+    <div class="transaction-details">
+        <div style="display: flex;">
+            <div>
+    <h2>Coins Earned | </h2></div>
+    <div class="transaction-date"><span>&nbsp;  5 OCT,2021</span></div>
+    </div>
+    </div>
+    <div class="transaction-amount">
+    <h1>+500</h1>
+    </div>
+
+
+</div>
+
+<div class="transaction-card">
+
+    <div class="transaction-logo">
+        <img src="Images/IMAGES/—Pngtree—cash withdrawal icon_3700442.png">
+    </div>
+    <div class="transaction-details">
+        <div style="display: flex;">
+            <div>
+    <h2>Money Withdrawn | </h2></div>
+    <div class="transaction-date" ><span>&nbsp;  12 OCT,2021</span></div>
+    </div>
+    </div>
+    <div class="transaction-amount">
+    <h1>-500</h1>
+    </div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+</body>
+</html>
